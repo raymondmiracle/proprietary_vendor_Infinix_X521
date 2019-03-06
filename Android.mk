@@ -27,15 +27,5 @@ LOCAL_SRC_FILES_32 := lib/libdpframework.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := libtinyalsa
-LOCAL_SRC_FILES_64 := lib64/libtinyalsa.so
-LOCAL_SRC_FILES_32 := lib/libtinyalsa.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
 
 endif
