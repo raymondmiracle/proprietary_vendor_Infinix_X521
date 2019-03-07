@@ -25,9 +25,6 @@ LOCAL_SRC_FILES_32 := lib/libdpframework.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
-<<<<<<< HEAD
 include $(BUILD_PREBUILT)
-=======
 
 endif
->>>>>>> d44dcf37fc9383c5d21b1703d0db68e95d8b030a
